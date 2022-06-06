@@ -1,0 +1,52 @@
+name: mozaik_project_template
+description: A new Flutter project.
+publish_to: 'none'
+
+ 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+ 
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: 2.0.6
+  mozaik_localization:    
+    path: /Users/gitlab.zfu.fintek.local/mozaik-frame-v2-ns/mozaik-localization
+  mozaik_common:    
+    path: /Users/gitlab.zfu.fintek.local/mozaik-frame-v2-ns/mozaik-common
+  mozaik_core:    
+    path: /Users/gitlab.zfu.fintek.local/mozaik-frame-v2-ns/mozaik-core
+  mozaik_crypt:    
+    path: /Users/gitlab.zfu.fintek.local/mozaik-frame-v2-ns/mozaik-crypt
+  mozaik_shared_preferences:    
+    path: /Users/gitlab.zfu.fintek.local/mozaik-frame-v2-ns/mozaik-shared-preferences
+  mozaik_local_storage:    
+    path: /Users/gitlab.zfu.fintek.local/mozaik-frame-v2-ns/mozaik-local-storage
+  mozaik_http:    
+    path: /Users/gitlab.zfu.fintek.local/mozaik-frame-v2-ns/mozaik-http
+  mozaik_alertbox:    
+    path: /Users/gitlab.zfu.fintek.local/mozaik-frame-v2-ns/mozaik-alertbox
+  image: 3.0.2
+  cupertino_icons: ^1.0.2
+  uuid: 3.0.4
+  data_connection_checker_tv: ^0.3.5-nullsafety
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^1.0.0
+
+ 
+ 
+flutter:
+  assets: 
+    - assets/images/
+    - i18n/
+   
+  uses-material-design: true
+
+   
