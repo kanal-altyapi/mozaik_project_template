@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mozaik_localization/mozaik_localization.dart';
 import 'package:mozaik_project_template/ui/screens/login/login_screen.dart';
-
 import 'common/app_config_util.dart';
 import 'managers/user_session_manager.dart';
 
@@ -43,8 +42,7 @@ class _MainAppState extends State<MainApp> {
 
   @override
   Widget build(BuildContext context) {
-    // FlutterStatusbarcolor.setStatusBarColor(Colors.transparent);
-    // FlutterStatusbarcolor.setStatusBarWhiteForeground(false);
-    return LoginScreen();
+
+    return const LoginScreen();
   }
 }
